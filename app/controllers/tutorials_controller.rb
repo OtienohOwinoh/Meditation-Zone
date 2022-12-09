@@ -33,7 +33,6 @@ def destroy
     private 
     def find_tutorial
         Tutorial.find(params[:id])
-        # Tutorial.find_by(id: params[:id])
      end
 
     def tutorial_params
