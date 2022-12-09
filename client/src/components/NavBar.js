@@ -26,13 +26,13 @@ function NavBar({ setUser, user }) {
       <Nav.Link ><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/">Home</Link></Nav.Link>
       <Nav.Link ><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/trainers">Trainers</Link></Nav.Link>
       <Nav.Link ><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/yoga-tutorials">Tutorial Videos</Link></Nav.Link>
-      <Nav.Link ><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/add-tutorial">Add Tutorial Videos</Link></Nav.Link>
+      <Nav.Link ><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/add-tutorial">Add Tutorials</Link></Nav.Link>
       <Nav.Link ><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/trainees">Trainees</Link></Nav.Link>
     </Nav>
     <Nav>
-      <Nav.Link >WELCOME {(user.name).toUpperCase()}</Nav.Link>
+      <Nav.Link >WELCOME {(user.name).toUpperCase()}!</Nav.Link>
      <Nav.Link  > <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/profile">My Profile</Link></Nav.Link>
-      <Nav.Link ><Button onClick={handleLogoutClick}>LOGOUT</Button></Nav.Link>
+      <Nav.Link ><Button onClick={handleLogoutClick}>Logout</Button></Nav.Link>
        </Nav>
   </Navbar.Collapse>
 </Container>
