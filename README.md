@@ -30,24 +30,13 @@ Start the rail server
 Start the react frontend  client 
 ### ```npm start --prefix client```
 
-If you have heroku cli installed, you can run the command below to start all the services 
-### ```heroku local -f Procfile.dev```
  
 
-The project backend server  will run on https://localhost:30000/  while 
+The project backend server  will run on https://localhost:3000/  while 
 The project frontend server  will run on https://localhost:4000/
 
 Visit https://localhost:4000/ to view the project homepage.
 You will be required to create an account before you are granted access to the full application. You are only required to create an account once as a trainee. For subsequent access , you will use the same username and password you provided during signup.
-
-### Screenshots
-
-LOGIN PAGE  ![Login Page](./imgs/dfrhef334cdtht.png)
-SIGNUP PAGE ![Signup page](./imgs/yhj889j.png)
-
-TRAINERS  ![Trainers](./imgs/bhy7uu.png)
-ADD MEDITATIONS TUTORIALS  ![Add Meditations Tutorials](./imgs/hu7kujkio.png)
-MEDITATIONS TUTORIALS  ![Meditations Tutorials](./imgs/uj8o8iojkkju.png)
 
 ### Project Technologies
 
