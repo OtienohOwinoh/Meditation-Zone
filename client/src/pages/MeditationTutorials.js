@@ -14,7 +14,6 @@ useEffect(() => {
       .then(setTutorials);
   }, []);
 
-
   function onDelete (id) {
     fetch(`tutorials/${id}`, { method: "DELETE" 
   }).then((res) => {
@@ -54,14 +53,14 @@ return (
         frameBorder='0'
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullscreen
-        title='Yoga Tutorial'
+        title='Meditations Tutorial'
          />
     <Card.Title>{tutorial.name}   <hr></hr> </Card.Title>
     <Card.Text>
     {tutorial.description}
     </Card.Text>
     <Button className='rounded-0 btn btn-dark btn-md' variant="primary">Rate Tutorial</Button>
-    <Button  onClick={() => {if(window.confirm(`Delete ${tutorial.name} from records?`)){
+    <Button  onClick={() => {if(window.confirm(`Delete ${tutorial.id} from records?`)){
 onDelete(tutorial.id)};}} 
  className='rounded-0 btn btn-danger btn-md' variant="primary">Remove Tutorial</Button>
     </Card.Body>
