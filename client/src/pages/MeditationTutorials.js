@@ -30,7 +30,7 @@ return (
   <Container>
         <div className='row'>
         <br></br>
-    <h3 className='text-center text-primary rounded-0'> Meditaton Tutorials</h3>
+    <h3 className='text-center text-primary rounded-0'> Meditations Tutorials</h3>
           <hr></hr>
           
         {errors?.map((err) => (
