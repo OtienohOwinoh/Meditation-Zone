@@ -4,6 +4,13 @@ CALMa Meditations App  is a web application that proovides remote meditations le
 To get started with the project,you will be required to clone this repository.
 Clone it here 
 
+
+## Prerequisites
+You need an IDE of your choice (preferably Visual Studio Code). You will need a browser (preferably Chrome) to view the webpage. You need to have installed npm and JSON-server on your local machine.
+
+## Setup
+Clone the project using these links depending on your local environment using https or ssh
+
 Run 
 ### ```npm install --prefix client```
 
@@ -29,6 +36,11 @@ Start the rail server
 
 Start the react frontend  client 
 ### ```npm start --prefix client```
+
+
+ ## Usage
+Make sure your rails server is running for the app to work as intended.
+The project requires an internet connection to work because information is fetched from an external source.
 
  
 
