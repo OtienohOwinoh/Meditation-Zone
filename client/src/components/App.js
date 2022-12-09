@@ -8,7 +8,7 @@ import Footer from './Footer';
 import Login from '../pages/Login';
 import NewTutorial from '../pages/NewTutorial';
 import Trainers from '../pages/Trainers';
-import YogaTutorials from '../pages/YogaTutorials';
+import MeditationTutorials from '../pages/MeditationTutorials';
 import Trainees from '../pages/Trainees';
 import Profile from '../pages/Profile';
 
@@ -60,8 +60,8 @@ function App() {
       <Container style={{background:"#dede"}} >
       <Routes>
         <Route exact  path="/add-tutorial"  element={<NewTutorial setTrainers={setTrainers} trainers={trainers}  user={user}   />}/>
-        <Route path="/"   element={<YogaTutorials/>}/>
-        <Route path="/yoga-tutorials"  element={<YogaTutorials />}/>
+        <Route path="/"   element={<MeditationTutorials/>}/>
+        <Route path="/yoga-tutorials"  element={<MeditationTutorials />}/>
         <Route path="/trainers"    element={<Trainers trainers={trainers} setTrainers={setTrainers}/>}/>
         <Route path="/trainees"    element={<Trainees/>}/>
         <Route path="/profile" element={<Profile user={user} />}/>

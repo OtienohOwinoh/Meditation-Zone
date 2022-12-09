@@ -8,12 +8,16 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
+ 
+ 
+ 
+ 
   get "*path", to: "fallback#index", constraints: ->(req) { !req.xhr? && req.format.html? }
-  post '/signup', to: 'users#create'
-  get '/me', to: 'users#show' 
-  post "/login", to: "sessions#create"
-  delete "/logout", to: "sessions#destroy"
-   get '/trainees', to: 'users#index'
+ post '/signup', to: 'users#create'
+ get '/me', to: 'users#show' 
+ post "/login", to: "sessions#create"
+ delete "/logout", to: "sessions#destroy"
+  get '/trainees', to: 'users#index'
 
   get '/trainers', to: 'trainers#index'
   get '/trainers/:id', to: 'trainers#show'

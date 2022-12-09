@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import {Card,Container,Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-function YogaTutorials (user){
+function MeditationTutorials (user){
   
 const [tutorials, setTutorials] = useState([]);
 const [success, setSuccess] = useState([]);
@@ -75,4 +75,4 @@ onDelete(tutorial.id)};}}
  
   );
 };
-export default YogaTutorials;
+export default MeditationTutorials;
