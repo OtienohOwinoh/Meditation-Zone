@@ -46,8 +46,8 @@ LOGIN PAGE  ![Login Page](./imgs/dfrhef334cdtht.png)
 SIGNUP PAGE ![Signup page](./imgs/yhj889j.png)
 
 TRAINERS  ![Trainers](./imgs/bhy7uu.png)
-ADD YOGA TUTORIALS  ![Add Yoga Tutorials](./imgs/hu7kujkio.png)
-YOGA TUTORIALS  ![Yoga Tutorials](./imgs/uj8o8iojkkju.png)
+ADD YOGA TUTORIALS  ![Add Meditations Tutorials](./imgs/hu7kujkio.png)
+YOGA TUTORIALS  ![Meditations Tutorials](./imgs/uj8o8iojkkju.png)
 
 ### Project Technologies
 
@@ -59,5 +59,5 @@ Postresql Version 15
 React -  npm Version 8.19.1
 
 #### Copyright
-Moringa School 2022 - Phase 4 - Group A Project
+Moringa School 2022 - Phase 4 - Collince Otienoh Owinoh
 
