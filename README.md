@@ -59,9 +59,6 @@ Postresql Version 15
 * Frontend 
 React -  npm Version 8.19.1
 
-#### Copyright
-Moringa School 2022 - Phase 4 - Collince Otienoh Owinoh
-
 
 ## License
 MIT License
