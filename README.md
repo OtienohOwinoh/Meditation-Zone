@@ -1,5 +1,5 @@
-# MY YOGA ZONE
-My yoga Zone is a web application that proovides reomote yoga lessons  to individuals at the comfort.The yoga lessons which are inform of videos are free of charge to all individuals . onl need toA trainee only need to  have an acces to the app ,book a trainer will be granted  all yoga tutorial videos under the trainer.
+# CALMa ZONE
+CALMa Meditations App  is a web application that proovides remote meditations lessons  to individuals at the comfort.The meditations lessons which are inform of videos are free of charge to all individuals . Trainee only need to  have an acces to the app ,book a trainer will be granted  all Meditations tutorial videos under the trainer.
 
 To get started with the project,you will be required to clone this repository.
 Clone it here 
